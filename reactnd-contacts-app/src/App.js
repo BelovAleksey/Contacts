@@ -31,7 +31,7 @@ class App extends Component {
             }}
           />
         )}
-        {this.state.screen === 'create' && <div>CreateContact</div>}
+        {this.state.screen === 'create' && <CreateContact/>}
       </div>
     );
   }
